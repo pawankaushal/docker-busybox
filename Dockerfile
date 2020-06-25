@@ -1,2 +1,3 @@
-FROM busybox
-CMD ["echo","helloworld-this is a busybox test!"]
+FROM node:7-alpine
+
+RUN apk add -U subversion
